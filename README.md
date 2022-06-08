@@ -1,7 +1,5 @@
 **Payments Engine**
 
-The payments engine is a solution to the Kraken Rust coding test.
-
 Approach:
 
 - Read CSV a line at a time and implement described state machine
@@ -13,7 +11,7 @@ Approach:
   - Other invalid states are similarly skipped and accompanied by stderr reporting
 - Questions: 
   - The instructions seemed to suggest that disputed transaction behavior is the same for deposits and withdrawals, which
-    is questionable
+    is questionable.
   
 
 ```
